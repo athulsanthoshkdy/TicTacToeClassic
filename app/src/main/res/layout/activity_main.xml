@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcfc"
+    android:padding="25dp"
+    tools:context="com.blogspot.darwinsapp.tictactoeclassic.MainActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+    <Button
+        android:background="#fcfc"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/Btn1"
+        android:layout_marginRight="5dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/Btn2"
+        android:background="#fcfc"
+        android:layout_width="100dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="100dp" />
+    <Button
+        android:textColor="@color/colorPrimaryDark"
+        android:background="#fcfc"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/Btn3"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Btn4"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginRight="5dp"
+            android:layout_width="100dp"
+            android:background="#fcfc"
+            android:layout_height="100dp" />
+        <Button
+            android:id="@+id/Btn5"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="#fcfc"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:id="@+id/Btn6"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="5dp"
+            android:background="#fcfc"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Btn7"
+            android:background="#fcfc"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="100dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="100dp" />
+        <Button
+            android:id="@+id/Btn8"
+            android:layout_width="100dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="#fcfc"
+            android:layout_height="100dp" />
+        <Button
+            android:id="@+id/Btn9"
+            android:layout_width="100dp"
+            android:background="#fcfc"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:layout_height="100dp" />
+    </LinearLayout>
+</LinearLayout>
+    <TextView
+        android:id="@+id/Text"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Again"/>
+</LinearLayout>
